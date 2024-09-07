@@ -8,11 +8,10 @@ const SearchBar = () => {
 
     const handleSearch = (e) => {
         setSearchTerm(e.target.value);
-        setFilteredProducts(
-            products.filter((product) =>
-                product.title.toLowerCase().includes(e.target.value.toLowerCase())
-            )
+        const filtered = products.filter((product) =>
+            product.title.toLowerCase().includes(e.target.value.toLowerCase())
         );
+        setFilteredProducts(filtered);
     };
 
     return (
