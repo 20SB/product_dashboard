@@ -43,4 +43,4 @@
 
 ## Deployed Link
 
--   [Chit Chaat](https://product-dashboard-ruddy.vercel.app/)
+-   [Product Dashboard](https://product-dashboard-ruddy.vercel.app/)
